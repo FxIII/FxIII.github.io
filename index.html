@@ -1,8 +1,10 @@
 <H1>ACCAUNO</h1>
 <script>
+window.onload = function(){
   if(navigator.serviceWorker){
      var d = document.createElement("div");
      d.innertHTML = "c'hai il coso service!";
      document.getElementsByTagName("h1")[0].appendChild(d);
   }
+}
 </script>
